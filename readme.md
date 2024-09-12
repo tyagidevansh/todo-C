@@ -1,0 +1,2 @@
+## Dependencies
+This project depends on raygui (both the header-only lib and styles), raylib and openGL. Windowing system used - X11. Use compiler flags -lraylib -lGL -lm -lpthread -ldl -lrt -lX11. Made on WSL 2 (Ubuntu). To compile, make sure you have raylib and openGL installed and put raygui.h and styles (from raygui) inside the root project directory, on the same level as todo.c.
